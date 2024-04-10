@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body: Roboto;
+  --sub-header: Outfit;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-5xl: 24px;
+  --sub-header-size: 20px;
+  --h2-size: 57px;
+  --body-size: 18px;
+  --h1-size: 87px;
+  --font-size-17xl: 36px;
+
+  /* Colors */
+  --color-gray: #08012e;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-darkslateblue: #27225c;
+
+  /* Gaps */
+  --gap-102xl: 121px;
+  --gap-40xl: 59px;
+  --gap-2xs: 11px;
+  --gap-0: 0px;
+  --gap-8xs: 5px;
+  --gap-11xl: 30px;
+  --gap-118xl: 137px;
+  --gap-12xl: 31px;
+  --gap-168xl: 187px;
+
+  /* Paddings */
+  --padding-10xs: 3px;
+  --padding-24xl: 43px;
+  --padding-161xl: 180px;
+  --padding-160xl: 179px;
+  --padding-mid: 17px;
+  --padding-10xl: 29px;
+  --padding-12xs: 1px;
+  --padding-6xs: 7px;
+  --padding-5xs: 8px;
+  --padding-7xs: 6px;
+  --padding-8xs: 5px;
+
+  /* Border radiuses */
+  --br-21xl: 40px;
+  --br-6xl: 25px;
+  --br-45xl: 64px;
+}

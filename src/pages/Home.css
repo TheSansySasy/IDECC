@@ -1,0 +1,334 @@
+.about,
+.home1,
+.idecc,
+.my-labs,
+.new-project {
+  position: relative;
+  line-height: 27.5px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.idecc {
+  width: 60.9px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.about,
+.home1,
+.my-labs,
+.new-project {
+  width: 50.9px;
+}
+.home1,
+.about,
+.my-labs,
+.new-project {
+  width: 52.9px;
+  cursor: pointer;
+}
+.my-labs,
+.new-project {
+  width: 67.9px;
+}
+.get-started-wrapper {
+  cursor: pointer;
+}
+.new-project {
+  width: 103.8px;
+}
+.frame3,
+.navbar {
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame3 {
+  width: 524.9px;
+  overflow: hidden;
+  flex-shrink: 0;
+  gap: 0 83px;
+}
+.navbar {
+  width: 1064.8px;
+  gap: 0 479px;
+}
+.frame2 {
+  width: 1065.6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.unleash-innovation-anywhere,
+.your-cloud-ide {
+  position: undefined;
+  display: inline-block;
+  margin-left: 5px;
+}
+.unleash-innovation-anywhere {
+  width: 496px;
+  line-height: 100%;
+  text-transform: capitalize;
+  height: 251px;
+  flex-shrink: 0;
+}
+.your-cloud-ide {
+  width: 459px;
+  line-height: 27.5px;
+  height: 28px;
+}
+.get-started {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.get-started-wrapper {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid) var(--padding-10xl);
+  font-size: var(--sub-header-size);
+  font-family: var(--sub-header);
+}
+.frame5,
+.frame6 {
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame6 {
+  width: 464px;
+  height: 123px;
+  gap: 33px 0;
+  font-size: var(--body-size);
+  font-family: var(--body);
+}
+.frame5 {
+  width: 484px;
+  height: 430px;
+  gap: 56px 0;
+  position: undefined;
+  margin-top: 54px;
+}
+.objectother-07-icon {
+  width: 525px;
+  position: relative;
+  height: 525px;
+  object-fit: cover;
+}
+.hero {
+  width: 1095.6px;
+  height: 525px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 69px;
+}
+.frame1,
+.frame4 {
+  width: 1127.1px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame4 {
+  align-items: flex-end;
+  font-size: var(--h1-size);
+}
+.frame1 {
+  height: 626px;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 73px 0;
+}
+/* .digital-labs1 {
+  width: 152.3px;
+  position: absolute;
+  letter-spacing: 0.1em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+} */
+.digital-labs-child {
+  width: 1061px;
+  position: absolute;
+  height: 144px;
+}
+.digital-labs,
+.frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.digital-labs {
+  width: 1061px;
+  height: 183px;
+  align-items: flex-start;
+  padding: 0 0 0 0.995309591293335px;
+  box-sizing: border-box;
+  gap: 11px 0;
+  position: undefined;
+  margin-right: 1px;
+}
+.frame {
+  position: absolute;
+  top: 58px;
+  left: 156.4px;
+  width: 1127.1px;
+  height: 946px;
+  overflow: hidden;
+  align-items: center;
+  gap: 137px 0;
+}
+.code-unleashed-anytime {
+  width: 469px;
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+}
+.instant-accessibility {
+  width: 496px;
+  position: relative;
+  font-size: var(--h2-size);
+  line-height: 100%;
+  text-transform: capitalize;
+  display: inline-block;
+  height: 108px;
+  flex-shrink: 0;
+}
+.frame10 {
+  width: 496px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.your-code-your {
+  width: 373px;
+  position: relative;
+  font-size: var(--body-size);
+  line-height: 27.5px;
+  font-family: var(--body);
+  display: inline-block;
+}
+.benefit1,
+.frame9 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame9 {
+  width: 496px;
+  height: 222px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 31px 0;
+}
+.benefit1 {
+  width: 976px;
+  height: 403px;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 77px;
+  position: undefined;
+  margin-left: 36px;
+}
+.code-dynamically-scale {
+  width: 496px;
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+}
+.frame12 {
+  width: 496px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.embrace-the-power {
+  width: 394px;
+  position: relative;
+  font-size: var(--body-size);
+  line-height: 27.5px;
+  font-family: var(--body);
+  display: inline-block;
+}
+.objectother-13-icon {
+  width: 403px;
+  position: relative;
+  height: 403px;
+  object-fit: cover;
+}
+.benefit2,
+.frame7,
+.frame8 {
+  display: flex;
+  align-items: center;
+}
+.benefit2 {
+  width: 986px;
+  height: 403px;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 0 87px;
+  position: undefined;
+  margin-right: 68px;
+}
+.frame7,
+.frame8 {
+  overflow: hidden;
+  flex-direction: column;
+}
+.frame8 {
+  width: 1054px;
+  height: 943px;
+  flex-shrink: 0;
+  justify-content: center;
+  gap: 137px 0;
+}
+.frame7 {
+  position: absolute;
+  top: 1141px;
+  left: 0;
+  width: 1440px;
+  height: 1721px;
+  justify-content: flex-start;
+  gap: 78px 0;
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray);
+  height: 2862px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--sub-header-size);
+  color: var(--color-white);
+  font-family: var(--sub-header);
+}
