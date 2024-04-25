@@ -24,7 +24,7 @@
   height: 28px;
   align-items: flex-start;
 }
-.frame40,
+.footer-header,
 .frame41,
 .frame42 {
   overflow: hidden;
@@ -40,7 +40,7 @@
   gap: 0 226px;
   font-size: var(--font-size-base);
 }
-.frame40 {
+.footer-header {
   width: 1021px;
   height: 33px;
   align-items: center;
@@ -66,8 +66,8 @@
 .home5 {
   cursor: pointer;
 }
-.frame44,
-.frame45 {
+.idecc-links-footer,
+.home-about {
   width: 86px;
   overflow: hidden;
   display: flex;
@@ -75,7 +75,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.frame44 {
+.idecc-links-footer {
   height: 114px;
   flex-shrink: 0;
   gap: 5px 0;
@@ -106,14 +106,14 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.frame39,
-.frame43,
+.footer-main,
+.footer-content,
 .frame47 {
   overflow: hidden;
   flex-shrink: 0;
   display: flex;
 }
-.frame43 {
+.footer-content {
   width: 833px;
   height: 114px;
   flex-direction: row;
@@ -125,7 +125,7 @@
   font-size: var(--font-size-base);
   font-family: var(--body);
 }
-.frame39 {
+.footer-main {
   width: 1064px;
   height: 158px;
   flex-direction: column;

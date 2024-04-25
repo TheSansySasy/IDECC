@@ -38,8 +38,8 @@ const Footer = ({
 
   return (
     <div className="footer" style={footerStyle}>
-      <div className="frame39">
-        <div className="frame40">
+      <div className="footer-main">
+        <div className="footer-header">
           <div className="idecc4">idecc</div>
           <div className="frame41">
             <div className="idecc5">idecc</div>
@@ -48,9 +48,9 @@ const Footer = ({
             </div>
           </div>
         </div>
-        <div className="frame43" style={frameStyle}>
-          <div className="frame44">
-            <div className="frame45">
+        <div className="footer-content" style={frameStyle}>
+          <div className="idecc-links-footer">
+            <div className="home-about">
               <div className="home5" onClick={onHomeText2Click}>
                 home
               </div>

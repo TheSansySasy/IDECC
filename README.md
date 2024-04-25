@@ -1,10 +1,7 @@
+# IDECC
 
-  # Major
+This project aims to reduce the complexities of the Developer to setup a development environment in their Local System by working on the Pre-Configured systems on the Integrated Development Environment that are Hosted on the Azure Cloud Services, using services like Azure Container Apps and Azure Container Registries to store the Docker Image of different Environments.
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+# Azure
 
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
-  
+Azure Container Registries is used to store the Environemnts of different Languages or Frameworks.
