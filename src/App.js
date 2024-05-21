@@ -9,6 +9,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import NewProject from "./pages/NewProject";
 import MyLabs from "./pages/MyLabs";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 function App() {
   const action = useNavigationType();
@@ -28,6 +30,10 @@ function App() {
     switch (pathname) {
       case "/":
         title = "";
+        metaDescription = "";
+        break;
+      case "/login":
+        title = "login";
         metaDescription = "";
         break;
       case "/about":
@@ -60,7 +66,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Login />} />
+      <Route path="/register" element={<Register />} />
+      <Route path="/home" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/newproject" element={<NewProject />} />
       <Route path="/mylabs" element={<MyLabs />} />

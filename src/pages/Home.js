@@ -20,7 +20,7 @@ const Home = () => {
   }, [navigate]);
 
   const onNewProjectTextClick = useCallback(() => {
-    navigate("/newproject");
+    navigate("/login");
   }, [navigate]);
 
   return (
